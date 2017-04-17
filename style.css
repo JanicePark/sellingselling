@@ -97,22 +97,23 @@ p {
 @media all and (max-width: 1000px) {
     h2 {
         font-size: 1.5em;
-        top: 25%;
+        top: 35%;
         left: 0;
     }
     h3 {
         padding-left: em;
     }
     .manifesto {
-        top: 50%;
+        top: 40%;
         padding-left: 1em;
         padding-right: 1em;
         column-count: 1;
     }
     .socialmedia {
         position: absolute;
-        bottom: 0%;
-        left: 5%;
+        top: 0%;
+        left:;
+        width: 200px;
     }
 }
 

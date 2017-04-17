@@ -1,0 +1,178 @@
+html,
+body {
+    font-family: "Proxima Nova";
+}
+
+
+/*        This applies padding in proportion to the base unit */
+
+body {
+    width: 100%;
+    margin: 0 8px;
+}
+
+canvas {
+    margin-top: -100px;
+}
+
+h1 {
+    font-size: 5em;
+    line-height: 3.1em;
+    word-spacing: -0.01em;
+    margin-bottom: 2em;
+}
+
+.logo {
+    padding-top: 2em;
+    width: 80%;
+    height: auto;
+    position: absolute;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h2 {
+    position: relative;
+    top: 55%;
+    font-family: "Proxima Nova";
+    font-style: italic;
+    font-weight: 100;
+    font-size: 2em;
+    margin-bottom: 30px;
+    margin-left: 1em;
+}
+
+h3 {
+    position: relative;
+    font-family: "Proxima Nova";
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: -5px;
+}
+
+p {
+    font-family: "Proxima Nova";
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+.manifesto {
+    position: absolute;
+    top: 430px;
+    padding-left: 24em;
+    padding-right: 24em;
+    column-count: 1;
+    margin-bottom: 50px;
+}
+
+.socialmedia {
+    position: fixed;
+    top: 28em;
+    left: 76%;
+    width: 10;
+}
+
+@media all and (max-width: 1000px) {
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        padding-left: em;
+    }
+    .manifesto {
+        top: 20%;
+        padding-left: 1em;
+        padding-right: 1em;
+        column-count: 1;
+    }
+    .socialmedia {
+        position: absolute;
+        bottom: 0%;
+        left: 5%;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+svg {
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+.logo-selling {
+    opacity: 0;
+    -webkit-animation: fadeIn 0.5s ease-in 0.7s forwards;
+    -moz-animation: fadeIn 0.5s ease-in 0.7s forwards;
+    animation: fadeIn 0.5s ease-in 0.7s forwards;
+}
+
+.logo-line {
+    opacity: 0;
+    -webkit-animation: fadeIn 0.5s ease-in 1.2s forwards;
+    -moz-animation: fadeIn 0.5s ease-in 1.2s forwards;
+    animation: fadeIn 0.5s ease-in 1.2s forwards;
+}
+
+.logo-manifesto {
+    opacity: 0;
+    -webkit-animation: fadeIn 0.5s ease-in 1.7s forwards;
+    -moz-animation: fadeIn 0.5s ease-in 1.7s forwards;
+    animation: fadeIn 0.5s ease-in 1.7s forwards;
+}

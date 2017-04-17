@@ -97,14 +97,14 @@ p {
 @media all and (max-width: 1000px) {
     h2 {
         font-size: 1.5em;
-        top: 17%;
+        top: 25%;
         left: 0;
     }
     h3 {
         padding-left: em;
     }
     .manifesto {
-        top: 20%;
+        top: 50%;
         padding-left: 1em;
         padding-right: 1em;
         column-count: 1;

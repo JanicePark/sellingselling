@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: "Proxima Nova";
+    font-family: "proxima-nova";
 }
 
 
@@ -59,7 +59,7 @@ h1 {
 h2 {
     position: relative;
     top: 55%;
-    font-family: "Proxima Nova";
+    font-family: "proxima-nova";
     font-style: italic;
     font-weight: 100;
     font-size: 2em;
@@ -69,14 +69,14 @@ h2 {
 
 h3 {
     position: relative;
-    font-family: "Proxima Nova";
+    font-family: "proxima-nova";
     font-weight: 600;
     font-style: normal;
     margin-bottom: -5px;
 }
 
 p {
-    font-family: "Proxima Nova";
+    font-family: "proxima-nova";
     line-height: 1.4em;
     margin-bottom: 20px;
 }

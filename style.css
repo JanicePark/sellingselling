@@ -88,10 +88,13 @@ p {
 }
 
 .socialmedia {
-    position: fixed;
+    display: block;
+    position: absolute;
     top: 28em;
     left: 76%;
-    width: 10;
+    width: 10px;
+    height: 100px;    
+    
 }
 
 @media all and (max-width: 1000px) {

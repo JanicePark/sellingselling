@@ -89,35 +89,10 @@ p {
 
 .socialmedia {
     display: block;
-    position: absolute;
-    top: 28em;
-    left: 76%;
+    position: relative;
+    top: 24em;
+    left: 78%;
     width: 10px;
-    height: 100px;    
-    
-}
-
-@media all and (max-width: 1000px) {
-    h2 {
-        font-size: 1.5em;
-        top: 35%;
-        left: 0;
-    }
-    h3 {
-        padding-left: em;
-    }
-    .manifesto {
-        top: 40%;
-        padding-left: 1em;
-        padding-right: 1em;
-        column-count: 1;
-    }
-    .socialmedia {
-        position: absolute;
-        top: 0%;
-        left:67%;
-        width: 200px;
-    }
 }
 
 @-webkit-keyframes fadeIn {
@@ -178,4 +153,60 @@ svg {
     -webkit-animation: fadeIn 0.5s ease-in 1.7s forwards;
     -moz-animation: fadeIn 0.5s ease-in 1.7s forwards;
     animation: fadeIn 0.5s ease-in 1.7s forwards;
+}
+
+@media all and (max-width: 1000px) {
+    h2 {
+        font-size: 1.5em;
+        top: 35%;
+        left: 0;
+    }
+    h3 {
+        padding-left: em;
+
+    }
+    .manifesto {
+        top: 42%;
+        padding-left: 1em;
+        padding-right: 1em;
+        column-count: 1;
+    }
+    .socialmedia {
+        position: absolute;
+        top: 35%;
+        left:65%;
+        width: 200px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    
+    .logo {
+    padding-top: 2em;
+    width: 90%;
+    position: absolute;
+}
+    
+    h2 {
+        font-size: 1.5em;
+        top: 19%;
+        left: 0;
+    }
+    h3 {
+        padding-left: em;
+
+    }
+    .socialmedia {
+        position: ;
+        top: 24%;
+        left:9%;
+        width: 200px;
+    }
+    
+       .manifesto {
+        top: 29%;
+        padding-left: 1em;
+        padding-right: 1em;
+        column-count: 1;
+    }
 }
